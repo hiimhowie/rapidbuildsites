@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FAQ — RapidBuildSites</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <header class="bg-white border-b shadow-sm">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="/" class="font-bold text-xl">RapidBuildSites</a>
+      <a href="/" class="text-sm hover:text-black">← Back Home</a>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 py-16">
+    <h1 class="text-4xl font-extrabold mb-6">Frequently Asked Questions</h1>
+    <p class="text-gray-600 mb-12">Here are the answers to some common questions. Don’t see yours? <a href="contact.html" class="text-black underline">Reach out here</a>.</p>
+
+    <div class="space-y-4">
+      <details class="bg-white rounded-xl border p-5">
+        <summary class="font-semibold cursor-pointer">What happens after the free 3 months?</summary>
+        <p class="mt-2 text-gray-600">You can continue hosting with us for a simple monthly fee, or take your site files and host elsewhere. Your Google Business Profile remains yours.</p>
+      </details>
+
+      <details class="bg-white rounded-xl border p-5">
+        <summary class="font-semibold cursor-pointer">How long does setup take?</summary>
+        <p class="mt-2 text-gray-600">Most projects are live within 7 days once we have your info (logo, services, contact details).</p>
+      </details>
+
+      <details class="bg-white rounded-xl border p-5">
+        <summary class="font-semibold cursor-pointer">Do I need a domain name right now?</summary>
+        <p class="mt-2 text-gray-600">No — we can launch on a temporary subdomain. You can secure a domain anytime and we’ll connect it.</p>
+      </details>
+
+      <details class="bg-white rounded-xl border p-5">
+        <summary class="font-semibold cursor-pointer">Can you also handle automation projects?</summary>
+        <p class="mt-2 text-gray-600">Yes! We also build bots and custom workflows. Check out our <a href=\"/automation\" class=\"text-black underline\">Automation Services</a> page.</p>
+      </details>
+    </div>
+  </main>
+
+  <footer class="bg-white border-t py-6 text-center text-sm text-gray-500">
+    © <span id="y"></span> RapidBuildSites — All rights reserved
+  </footer>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
