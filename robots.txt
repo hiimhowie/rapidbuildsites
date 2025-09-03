@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block junk if you ever add them
+Disallow: /admin/
+Disallow: /tmp/
+Disallow: /private/
+
+Sitemap: https://rapidbuildsites.com/sitemap.xml
