@@ -8,12 +8,25 @@
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-  <header class="bg-white border-b shadow-sm">
-    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-      <a href="index.html" class="font-bold text-xl">RapidBuildSites</a>
-      <a href="index.html" class="text-sm hover:text-black">← Back Home</a>
+  <header class="sticky top-0 z-40 bg-white/80 backdrop-blur border-b">
+  <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="index.html" class="font-bold text-xl">RapidBuildSites</a>
+    <nav class="hidden md:flex items-center gap-6 text-sm">
+      <a href="index.html#kit" class="hover:text-black">What You Get</a>
+      <a href="index.html#pricing" class="hover:text-black">Pricing</a>
+      <a href="rapidfaq.html" class="hover:text-black">FAQ</a>
+      <a href="rapidcontact.html" class="hover:text-black">Contact</a>
+      <a href="rapidbuildautomation.html" class="hover:text-black">Automation</a>
+      <a href="index.html#contact" class="px-4 py-2 rounded-full bg-black text-white">Claim 3 Months Free</a>
+    </nav>
+    <!-- Mobile Menu (simplified) -->
+    <div class="md:hidden flex gap-2">
+      <a href="rapidbuildautomation.html" class="px-3 py-2 rounded-full border text-sm">Automation</a>
+      <a href="index.html#contact" class="px-3 py-2 rounded-full bg-black text-white text-sm">Start Free</a>
     </div>
-  </header>
+  </div>
+</header>
+
 
   <main class="max-w-6xl mx-auto px-4 py-16">
     <h1 class="text-4xl font-extrabold mb-6">Frequently Asked Questions</h1>
@@ -49,4 +62,5 @@
   <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
 </body>
 </html>
+
 
